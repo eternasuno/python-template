@@ -1,10 +1,9 @@
 {
-  "image": "mcr.microsoft.com/devcontainers/debian",
+  "image": "mcr.microsoft.com/devcontainers/base:debian",
   "features": {
-    "ghcr.io/devcontainers/features/python:1": {
+    "ghcr.io/devcontainers/features/python": {
       "version": "latest",
-      "installTools": true,
-      "installJupyterlab": true
+      "installTools": true
     }
   }
 }
